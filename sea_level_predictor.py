@@ -1,10 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
-# git remote -v
-# git add .
-# git commit -m "test"
-# git push
 
 def draw_plot():
     # Read data from file
@@ -30,7 +26,7 @@ def draw_plot():
     plt.ylabel('Sea Level (inches)')
     plt.title('Rise in Sea Level')
     plt.legend()
-    
+
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
     return plt.gca()
